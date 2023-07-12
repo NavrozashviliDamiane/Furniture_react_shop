@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../Code/обучение (профи)/Project-ballons-npm-test"
+		},
+		{
+			"path": "../Интернет магазин"
+		},
+		{
+			"path": "../../Вэб/Сайт-go/web-main-go-8"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Интернет магазин"
+	}
+}

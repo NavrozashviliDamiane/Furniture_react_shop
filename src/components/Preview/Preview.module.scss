@@ -1,0 +1,66 @@
+.preview {
+  height: 472px;
+  background: #F1F1F1;
+  display: flex;
+
+  .rightPreviewSide {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    .previewBlock {
+      transform: translate(20px, -30px);
+
+      .previewHeading {
+        color: #000;
+        font-size: 24px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 0 24px 0;
+      }
+
+      .previewText {
+        color: #000;
+        font-size: 16px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 0 24px 0;
+      }
+
+      .previewButton {
+        color: #FFF;
+        font-size: 20px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 10px;
+        background: #DB9969;
+        border: 0;
+        padding: 12.396px 62px 11.604px 61px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .rightPreviewSide {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      .previewBlock {
+        transform: none;
+        margin: 0 auto;
+
+        .previewButton {
+          padding: 12px 24px;
+        }
+      }
+    }
+  }
+}

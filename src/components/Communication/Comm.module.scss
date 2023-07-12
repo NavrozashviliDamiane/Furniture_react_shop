@@ -1,0 +1,72 @@
+.comm {
+  background: rgba(238, 206, 183, 0.22);
+  height: 286px;
+  padding-left: 63px;
+  display: flex;
+  align-items: center;
+
+  .commTextBox {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 24px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 28px;
+  }
+
+  .commMail {
+    width: 532px;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    opacity: 0.30000001192092896;
+    background: #FFF;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 12px 0 12px 30px;
+    margin-right: 30px;
+  }
+
+  .commButton {
+    border-radius: 10px;
+    border: none;
+    background: #DB9969;
+    padding: 12px 53px 12px 52px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  // Responsive styles
+  @media (max-width: 768px) {
+    .comm {
+      flex-direction: column;
+      height: auto;
+      padding-left: 20px;
+    }
+
+    .commTextBox {
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .commMail {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .commButton {
+      padding: 12px 30px;
+    }
+  }
+}
